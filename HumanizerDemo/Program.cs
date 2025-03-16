@@ -1,4 +1,5 @@
 ﻿using Humanizer;
+using Humanizer.Localisation;
 
 // From: https://github.com/Humanizr/Humanizer
 
@@ -18,6 +19,8 @@ DateTime.UtcNow.AddHours(30).Humanize();
 DateTime.UtcNow.AddHours(2).Humanize();
 
 DateTimeOffset.UtcNow.AddHours(1).Humanize();
+
+TimeSpan.FromDays(486).Humanize(maxUnit: TimeUnit.Year, precision: 7);
 
 static void Write(string text)
 {
