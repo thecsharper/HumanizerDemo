@@ -24,6 +24,8 @@ Write(TimeSpan.FromDays(486).Humanize(maxUnit: TimeUnit.Year, precision: 7));
 
 Write("Man".Pluralize(inputIsKnownToBeSingular: false));
 
+Write("some_title for something".Camelize());
+
 static void Write(string text)
 {
     Console.WriteLine(text);
