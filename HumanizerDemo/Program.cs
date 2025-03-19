@@ -24,7 +24,13 @@ Write(TimeSpan.FromDays(486).Humanize(maxUnit: TimeUnit.Year, precision: 7));
 
 Write("Man".Pluralize(inputIsKnownToBeSingular: false));
 
-Write("some_title for something".Camelize());
+Write("some_titsize something".Camelize());
+
+var size = (10.505).Kilobytes();
+
+Write(size.ToString("KB"));
+Write(size.Humanize("MB"));
+Write(size.Humanize("b")); 
 
 static void Write(string text)
 {
