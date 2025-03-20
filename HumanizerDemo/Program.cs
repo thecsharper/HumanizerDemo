@@ -30,7 +30,9 @@ var size = (10.505).Kilobytes();
 
 Write(size.ToString("KB"));
 Write(size.Humanize("MB"));
-Write(size.Humanize("b")); 
+Write(size.Humanize("b"));
+
+Write(122.ToWords());
 
 static void Write(string text)
 {
