@@ -34,6 +34,17 @@ Write(size.Humanize("b"));
 
 Write(122.ToWords());
 
+Write(1.ToRoman());
+Write(2.ToRoman()); 
+Write(3.ToRoman()); 
+Write(4.ToRoman()); 
+Write(5.ToRoman()); 
+Write(6.ToRoman()); 
+Write(7.ToRoman()); 
+Write(8.ToRoman());
+Write(9.ToRoman());
+Write(10.ToRoman());
+
 static void Write(string text)
 {
     Console.WriteLine(text);
