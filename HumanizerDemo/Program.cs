@@ -45,6 +45,8 @@ Write(8.ToRoman());
 Write(9.ToRoman());
 Write(10.ToRoman());
 
+Write(2025.ToRoman());
+
 static void Write(string text)
 {
     Console.WriteLine(text);
