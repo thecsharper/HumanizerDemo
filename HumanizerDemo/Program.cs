@@ -47,6 +47,8 @@ Write(10.ToRoman());
 
 Write(2025.ToRoman());
 
+Write(19854651984.Bytes().Per(1.Seconds()).Humanize("#.##"));
+
 static void Write(string text)
 {
     Console.WriteLine(text);
