@@ -49,6 +49,8 @@ Write(2025.ToRoman());
 
 Write(19854651984.Bytes().Per(1.Seconds()).Humanize("#.##"));
 
+Write(19854651984.Bytes().Per(1.Seconds()).Humanize("#.####"));
+
 Write(new TimeOnly(3, 0).ToClockNotation());
 
 static void Write(string text)
